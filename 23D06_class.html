@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <form>
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="department">학과:</label>
+            <input type="text" id="department" name="department" required><br>
+
+            <label for="grade">학년:</label>
+            <div id="grade" name="grade" required>
+                <input type="radio" id="1st" name="grade" value="1st">
+				<label for="1st">1학년</label>
+				<input type="radio" id="2nd" name="grade" value="2nd">
+				<label for="2nd">2학년</label>
+				<input type="radio" id="3rd" name="grade" value="3rd">
+				<label for="3rd">3학년</label>
+				<input type="radio" id="4th" name="grade" value="4th">
+				<label for="4th">4학년 이상</label>
+            </div>
+          
+            <label for="courses">수강과목 (중복선택가능):</label>
+            <div id="courses">
+              <input type="checkbox" id="it-tech" name="courses" value="IT">
+              <label for="it-tech">IT기술의 이해</label>
+              <input type="checkbox" id="web-prog" name="courses" value="WebPro">
+              <label for="web-prog">웹프로그래밍기초</label>
+              <input type="checkbox" id="ui-ux" name="courses" value="UIUX">
+              <label for="ui-ux">UI/UX설계</label>
+            </div>
+          
+            <input type="submit" value="확인">
+            <input type="reset" value="취소">
+          </form>
+          
+    </head>
+    <body>
+
+    </body>
+</html>
