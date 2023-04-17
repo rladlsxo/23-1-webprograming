@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>domestic_books</title>
+        <style>
+            .booklist{
+                background-image:url(./cloud.jpg);
+                display: block;
+                margin-bottom: 20px;
+            }
+            .booklist li {
+                display: inline-block;
+                margin: 20px;
+                position: relative;
+            }
+
+            .booklist li:hover .info {
+                display: block;
+            }
+
+            .booklist li .info {
+                background-color: white;
+                border: 1px solid black;
+                display: none;
+                padding: 10px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 200px;
+                z-index: 1;
+            }
+
+            .booklist li img {
+                height: 160px;
+                width: 120px;
+            }
+        </style>
+    </head>
+    <body class="booklist">
+        <ul>
+            <li>
+                <img src="book1.jpg">
+                <div class="info">
+                    <p>컴퓨터와 IT기술의 이해[개정판-2판]</p>
+                    <p>최윤철, 임순범, 한탁돈</p>
+                    <p>생능출판사 | 27,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="book2.jpg">
+                <div class="info">
+                    <p>(알기 쉬운) 알고리즘</p>
+                    <p>양성봉</p>
+                    <p>생능출판사 | 24,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="book3.jpg">
+                <div class="info">
+                    <p>선형대수학 Express</p>
+                    <p>김대수</p>
+                    <p>생능출판사 | 27,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="book4.jpg">
+                <div class="info">
+                    <p>루비 프로그래밍 언어</p>
+                    <p>유하진, 김윤경, 김진석</p>
+                    <p>생능출판사 | 29,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="book5.jpg">
+                <div class="info">
+                    <p>소셜미디어의 이해와 활용</p>
+                    <p>임순범, 신은주</p>
+                    <p>생능출판사 | 21,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="book6.jpg">
+                <div class="info">
+                    <p>멀티미디어 배움터 2.0</p>
+                    <p>최윤철, 임순범</p>
+                    <p>생능출판사 | 25,000원</p>
+                </div>
+            </li>
+        </ul>
+
+
+    </body>
+</html>

@@ -1,0 +1,39 @@
+.booklist{
+    background-image:url(./cloud.jpg);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.image img {
+    width: 200px;
+    height: 160px;
+    margin-right: 20px;
+}
+  
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.author {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+  
+.publisher .price {
+    margin-bottom: 10px;
+}
+  

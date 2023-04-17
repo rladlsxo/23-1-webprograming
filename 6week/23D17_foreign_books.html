@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>foreign_books</title>
+        <style>
+            .booklist{
+                background-image:url(./cloud.jpg);
+                display: block;
+                margin-bottom: 20px;
+            }
+            .booklist li {
+                display: inline-block;
+                margin: 20px;
+                position: relative;
+            }
+
+            .booklist li:hover .info {
+                display: block;
+            }
+
+            .booklist li .info {
+                background-color: white;
+                border: 1px solid black;
+                display: none;
+                padding: 10px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 200px;
+                z-index: 1;
+            }
+
+            .booklist li img {
+                height: 160px;
+                width: 120px;
+            }
+        </style>
+    </head>
+    <body class="booklist">
+        <ul>
+            <li>
+                <img src="fbook1.jpg">
+                <div class="info">
+                    <p>네트워크 보안 에센셜(4판)</p>
+                    <p>William Stallings 지음<br>이재광, 전태일 공역</p>
+                    <p>생능출판사 | 30,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="fbook2.jpg">
+                <div class="info">
+                    <p>비즈니스 정보 시스템</p>
+                    <p>P. Baltzan & A. Phillips<br>고석하 외 공역</p>
+                    <p>생능출판사 | 28,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="fbook3.jpg">
+                <div class="info">
+                    <p>회로이론</p>
+                    <p>Mitchel E. Schultz<br>김경화, 정성순외 공역</p>
+                    <p>생능출판사 | 35,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="fbook4.jpg">
+                <div class="info">
+                    <p>Big Java</p>
+                    <p>Cay Horstmann<br>오세만 외 공역</p>
+                    <p>생능출판사 | 32,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="fbook5.jpg">
+                <div class="info">
+                    <p>경영학의 이해 (9/e)</p>
+                    <p>Nickels, McHugh, McHugh<br>권구혁 외 공역</p>
+                    <p>생능출판사 | 30,000원</p>
+                </div>
+            </li>
+            <li>
+                <img src="fbook6.jpg">
+                <div class="info">
+                    <p>컴퓨터 배움터</p>
+                    <p>Greg Anderson 외<br>나연묵 외 공역</p>
+                    <p>생능출판사 | 27,000원</p>
+                </div>
+            </li>
+        </ul>
+
+
+    </body>
+</html>
